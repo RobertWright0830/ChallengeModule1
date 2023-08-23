@@ -4,9 +4,13 @@
     margin: 0;
 }
 
+/* Define body background color */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* Define header padding, font, background color and text color */
 
 header {
     padding: 20px;
@@ -15,14 +19,20 @@ header {
     color: #ffffff;
 }
 
+/* Assign larger font size to Horiseon header */
+
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Adjust font color for "seo" portion of Horiseon header */
+
 header h1 .seo {
     color: #d9dcd6;
 }
+
+/* Set navigation link fonts, size, padding and float to the right  */
 
 header nav {
     padding-top: 15px;
@@ -32,23 +42,32 @@ header nav {
     font-size: 20px;
 }
 
+/* Set navigation links as list types  */
+
 header nav ul {
     list-style-type: none;
 }
+
+/* Set navigation links to display in-line and set a margin  */
 
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Set hyperlink text color to white and remove link default format  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Set paragraph text font size */
+
 p {
     font-size: 16px;
 }
+
+/* Format hero image */
 
 .hero {
     height: 800px;
@@ -59,21 +78,29 @@ p {
     background-position: center;
 }
 
+/* Floats SEO and Social Media Marketing images to the left with margin */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
+/* Floats Online Reputation Marketing image to the right with margin */
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Define content presentation */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Define section presentation, font, background and font color */
 
 section {
     margin-bottom: 20px;
@@ -84,14 +111,20 @@ section {
     color: #ffffff;
 }
 
+/* Define each section image max height */
+
 section img {
     max-height: 200px;
 }
+
+/* Define each section heading font size and margin */
 
 section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Define benefits presentation, font, and backround */
 
 .benefits {
     margin-right: 20px;
@@ -104,15 +137,21 @@ section h2 {
     background-color: #2589bd;
 }
 
+/* Define each benefit category presentation and font color */
+
 .benefit-category {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Define each benefit category header location */
+
 .benefit-category h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* Define each benefit image size and location */
 
 .benefit-category img {
     display: block;
@@ -120,12 +159,17 @@ section h2 {
     max-width: 150px;
 }
 
+/* Define footer presentation and font */
+
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+/* Define footer heading font size */
+
 
 footer h4 {
     font-size: 20px;
